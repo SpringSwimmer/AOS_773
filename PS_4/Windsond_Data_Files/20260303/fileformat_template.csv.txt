@@ -1,0 +1,108 @@
+#  This is the template for Windsond output configuration files
+#  Each copy of this file describes how Windsond generates a specific data format.
+#  The name of the configuration file determines the naming of generated files.
+
+#  Configuration files are named with the pattern "fileformat_<XXX>.txt".
+#  Generated files will then be named on the pattern <sounding>.<XXX>,
+#  where <XXX> is the text used in the configuration file name.
+#  <XXX> can include a file prefix. Example:
+#  'fileformat_summary.csv.txt' will generate files like
+#  '2019-12-31_0900.summary.csv'.
+
+# Configuration files must be placed in the configured data file location.
+# By default this location is My Documents/Windsond files/
+#
+# Any line that starts with '#' is ignored (which is why Windsond
+# doesn't try to read these instructions).
+# To enable a setting, remove the '#' in front of it.
+# The wording must stay exact, or Windsond will be unable to understand the line
+
+# A description of the file format, to show in the Settings dialog:
+description=Template of CSV file format
+
+# If enabled, new soundings generate a CSV file of this format,
+# unless disabled in the Settings dialog:
+#default_active
+
+######################################################################
+#  Enable one of these to control how data rows are selected.
+#  Only one can be enabled.
+#  'use_actual_reports' controls the major type of data format -- if
+#  reports are used from the sonde at the altitudes the sonde happen to
+#  be at.
+#  If use_actual_reports is enabled, averaging between
+#  multiple data points will not be done.
+#use_actual_reports
+
+#  The set of specific altitudes to report:
+#  (change the list if you wish)
+#altitude_agl_m=10 50 100
+
+#  If altitude_agl_m or altitude_agl_ft is defined,
+#  altitude_agl_spacing_m is only used for any higher altitudes:
+#altitude_agl_spacing_m=100
+
+#  Works as altitude_agl_m, but uses feet as altitude unit:
+altitude_agl_ft=50 100 200 300
+
+#  If altitude_agl_m or altitude_agl_ft is defined,
+#  altitude_agl_spacing_ft is only used for any higher altitudes:
+altitude_agl_spacing_ft=100
+
+######################################################################
+# Controls what data is selected:
+remove_data_before_gps_fix
+#remove_data_before_take_off
+#remove_data_after_first_landing
+#remove_data_after_peak
+#remove_data_at_recurring_altitudes
+
+######################################################################
+# Controls how the data columns are separated in the file:
+#column_separation=comma
+#column_separation=tab
+#column_separation=semicolon
+column_separation=fixed-width
+
+######################################################################
+# Select parameters to report and their order
+# (As usual, place a '#' before a parameter to exclude it.)
+
+UTC time
+Local time
+Pressure (mb)
+Pressure (Pa)
+Temperature (C)
+Relative humidity (%)
+Wind speed (m/s)
+Wind speed (kt)
+Wind direction (true deg)
+Wind heading (true deg)
+Wind heading (magnetic deg)
+Dew point (C)
+Mixing ratio (g/kg)
+Density (kg/m3)
+
+Altitude (m MSL)
+Altitude (ft MSL)
+Height (m AGL)
+Height (ft AGL)
+GPS altitude (m MSL)
+Internal temperature (C)
+Latitude
+Longitude
+Uncorrected temperature (C)
+Uncorrected humidity (%)
+
+######################################################################
+# These parameters are only available when use_actual_reports is enabled,
+# since they are not interpolated for any given altitude:
+Time from launch (sec)
+Index
+Unfiltered wind speed (m/s)
+Unfiltered wind direction (true deg)
+Unfiltered wind heading (true deg)
+Unfiltered wind heading (magnetic deg)
+Reception quality (%)
+Rise speed (m/s)
+Light level (lux)

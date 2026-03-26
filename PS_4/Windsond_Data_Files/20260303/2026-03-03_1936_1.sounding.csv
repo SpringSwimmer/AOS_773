@@ -1,0 +1,4 @@
+# Radiation correction v2.2. Params: lat=43.0874, lon=-89.4242, utc_time=2026-03-03 19:43
+Height (m AGL), Pressure (mb), Temperature (C), Relative humidity (%), Wind speed (m/s), Wind direction (true deg)
+20, 987.26,  ,  ,  ,  
+40, 984.86,  ,  ,  ,  

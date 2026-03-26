@@ -1,0 +1,17 @@
+# Session start 2026-03-03 19:36:21
+# offset=1772566581.683
+# timezone=0
+# version=4
+# install=1D250D0 109
+# software=A2.100
+# node_id=17896
+00m00s000: [#RES:id=17896,q1=47,afc1=4370:Error: Keyword]
+00m05s412: [#MET:sid=3,syn=1,q1=48,afc1=4370,md=1,te=9.47,hu=52.95,pa=98314,spd=0.05,ang=133.00,latd=1964,lond=5641,spd1=0.05,ang1=133.00,te1=9.45,hu1=52.85,behlan=0]
+00m08s424: [#MET:sid=3,syn=1,q1=46,afc1=7650,md=1,te=9.55,hu=53.15,pa=98312,alt=275,spd=0.05,ang=133.00,latd=1964,lond=5641,spd1=0.05,ang1=133.00,te1=9.52,hu1=53.10,behlan=0]
+00m12s167: [#TXT:id=17896,seq=3,q1=48,afc1=6870:R(S408B119C134L88)]
+00m14s429: [#MET:sid=3,syn=1,q1=48,afc1=7340,md=1,te=9.74,tei=15.00,hu=53.55,pa=98296,spd=0.05,ang=133.00,latd=1957,lond=5648,spd1=0.05,ang1=133.00,te1=9.70,hu1=53.45,behlan=0]
+00m17s424: [#MET:sid=3,syn=1,q0=30,afc0=6090,q1=6a,afc1=3750,md=1,te=9.67,hu=53.55,pa=98310,spd=0.15,ang=133.00,latd=1953,lond=5654,lux=3792,spd1=0.05,ang1=133.00,te1=9.79,hu1=53.65,behlan=0]
+00m20s388: [#MET:sid=3,syn=1,q0=31,afc0=6250,rec0=3,q1=71,afc1=3900,md=1,te=9.18,hu=52.60,pa=98316,spd=0.10,ang=133.00,latd=1948,lond=5660,spd1=0.05,ang1=133.00,te1=9.42,hu1=52.95,behlan=0]
+00m23s399: [#MET:sid=3,syn=1,q0=31,afc0=3120,q1=6c,afc1=3750,md=1,te=8.57,hu=51.80,pa=98306,alt=277,spd=0.25,ang=133.00,latd=1950,lond=5663,spd1=0.20,ang1=133.00,te1=8.80,hu1=51.95,behlan=0,cutalt=1000]
+12m13s907: # STOP
+12m13s924: # STOP

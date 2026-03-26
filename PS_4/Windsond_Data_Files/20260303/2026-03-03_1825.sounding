@@ -1,0 +1,18 @@
+# Session start 2026-03-03 18:25:19
+# offset=1772562319.291
+# timezone=0
+# version=4
+# install=1D250D0 109
+# software=A2.100
+# node_id=17907
+00m00s000: [#FIND:id=17907,q0=95,afc0=6870,q1=cf,afc1=3750]
+00m00s500: [#TXT:id=17907,seq=1,q0=9d,afc0=6870,q1=de,afc1=3750:Boot]
+00m03s042: [#MET:id=17907,q0=b5,afc0=6710,q1=f3,afc1=3900,md=0,te=6.30,hu=51.55,pa=98368,lux=2112,su=4.15,behlan=0,role=1,clk=0,pwr=7,fwver=284,mcnt=1]
+00m06s053: [#MET:id=17907,q0=a0,afc0=6870,q1=e4,afc1=3900,md=0,te=6.26,hu=51.90,pa=98370,lux=3120,te1=6.27,hu1=51.85,te2=6.28,hu2=51.85,cutalt=1500,cutpr2=0,gpa=98370,hw=0,ucnt=0]
+00m09s157: [#MET:id=17907,q0=97,afc0=6710,q1=db,afc1=3750,md=0,te=6.16,hu=51.95,pa=98370,te1=6.18,hu1=51.95,te2=6.23,hu2=51.90]
+00m12s168: [#MET:id=17907,q0=a0,afc0=6870,q1=e4,afc1=3900,md=0,te=6.08,hu=52.05,pa=98366,te1=6.11,hu1=52.05,te2=6.13,hu2=52.00]
+00m12s480: [#TXT:id=17907,seq=2,q0=a2,afc0=6870,q1=e5,afc1=4060:R(S415B122C130L93)]
+00m15s210: [#MET:id=17907,q0=9c,afc0=6710,q1=df,afc1=3900,md=0,te=6.08,hu=52.25,pa=98368,te1=6.07,hu1=52.20,te2=6.07,hu2=52.15]
+00m18s315: [#MET:id=17907,q0=9d,afc0=7030,q1=db,afc1=3900,md=0,te=6.07,hu=52.50,pa=98366,te1=6.07,hu1=52.40,te2=6.07,hu2=52.35]
+00m26s345: # STOP
+00m26s345: # STOP

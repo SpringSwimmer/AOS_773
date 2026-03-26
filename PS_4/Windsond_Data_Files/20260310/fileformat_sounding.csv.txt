@@ -1,0 +1,22 @@
+# This is a Windsond output configuration file
+
+# A description of the file format, to show in the Settings dialog:
+description=Filtered sounding data as Comma-Separated Values
+
+#use_actual_reports
+altitude_agl_spacing_m=20
+
+remove_data_before_take_off
+remove_data_after_peak
+
+column_separation=comma
+
+######################################################################
+# Select parameters to report and their order
+
+Height (m AGL)
+Pressure (mb)
+Temperature (C)
+Relative humidity (%)
+Wind speed (m/s)
+Wind direction (true deg)

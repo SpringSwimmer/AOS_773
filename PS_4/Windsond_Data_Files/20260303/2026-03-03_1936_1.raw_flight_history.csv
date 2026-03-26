@@ -1,0 +1,5 @@
+UTC time, Altitude (m MSL), Altitude (m AGL), Pressure (Pascal), Speed (m/s), Heading (degrees), Temperature (C), Relative humidity (%), Internal temperature (C), Latitude, Longitude, Rise speed (m/s)
+19:43:43, 332, 55, 98304, 1.05, 3.10, 4.01, 65.30,  , 43.087430, -89.424210, 0
+19:43:45, 332, 55, 98301, 1.40, 4.40, 4.01, 65.75,  ,  ,  , 0
+19:43:46, 332, 55, 98300, 1.30, 7.90, 3.98, 66.00,  , 43.087455, -89.424202, 0
+19:45:13, 333, 56, 98288, 0.00, 42.90, 4.14, 68.50,  , 43.087325, -89.424208, 0

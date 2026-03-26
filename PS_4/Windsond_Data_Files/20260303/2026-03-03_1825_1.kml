@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.1">
+  <Document>
+    <Style id="now"><IconStyle>
+      <Icon><href>http://windsond.com/marker-now.png</href></Icon>
+      <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+    </IconStyle></Style>
+    <Style id="red_arrow"><IconStyle>
+      <Icon><href>http://windsond.com/marker-prediction-red.png</href></Icon>
+      <hotSpot x="0.5" y="1" xunits="fraction" yunits="pixels"/>
+    </IconStyle></Style>
+    <Style id="yellow_arrow"><IconStyle>
+      <Icon><href>http://windsond.com/marker-prediction-yellow.png</href></Icon>
+      <hotSpot x="0.5" y="1" xunits="fraction" yunits="pixels"/>
+    </IconStyle></Style>
+    <Style id="home"><IconStyle>
+      <Icon><href>http://windsond.com/marker-launch.png</href></Icon>
+      <hotSpot x="0.5" y="1" xunits="fraction" yunits="pixels"/>
+    </IconStyle></Style>
+    <Style id="top"><IconStyle>
+      <Icon><href>http://windsond.com/marker-peak.png</href></Icon>
+      <hotSpot x="0.5" y="1" xunits="fraction" yunits="fraction"/>
+    </IconStyle></Style>
+    <Style id="track">
+      <LineStyle><color>fff010c0</color></LineStyle>
+      <PolyStyle><color>3fc00880</color></PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Launch 2026-03-03_1825_1, sond 17907</name>
+      <description>Launch location</description>
+      <styleUrl>#home</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>-89.433498,43.083785,185</coordinates>
+     </Point>
+    </Placemark>
+    <Placemark>
+      <name>Flight Path 2026-03-03_1825_1, sond 17907</name>
+      <styleUrl>#track</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-89.433367,43.084088,185
+-89.433362,43.084167,185
+-89.433483,43.083742,185
+-89.433442,43.083752,185
+-89.433498,43.083785,185
+-89.433487,43.083775,185
+-89.433485,43.083755,185
+-89.433492,43.083747,187
+-89.433537,43.083743,186
+-89.433535,43.083748,185
+-89.433530,43.083752,185
+-89.433520,43.083752,185
+-89.433517,43.083752,185
+-89.433513,43.083755,186
+-89.433512,43.083760,185
+-89.433512,43.083763,185
+-89.433515,43.083765,185
+-89.433507,43.083765,186
+-89.433507,43.083767,185
+-89.433498,43.083770,185
+-89.433492,43.083772,185
+     </coordinates>
+    </LineString>
+   </Placemark>
+      <Placemark>
+        <name>Location now (AGL 0m)</name>
+        <styleUrl>#now</styleUrl>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>   -89.433492,43.083772,185
+          </coordinates>
+        </Point>
+      </Placemark>
+  </Document>
+</kml>

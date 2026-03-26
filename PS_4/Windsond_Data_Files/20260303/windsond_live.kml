@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+      <NetworkLink>
+        <name>Windsond reloading</name>
+        <Link>
+          <href>C:\Users\FieldUser_2\Documents\Windsond files\windsond_reloading.kml</href>
+          <refreshMode>onInterval</refreshMode>
+        <refreshInterval>15</refreshInterval>
+        </Link>
+      </NetworkLink>
+    </Document>
+    </kml>

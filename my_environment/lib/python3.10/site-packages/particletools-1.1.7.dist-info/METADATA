@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: particletools
+Version: 1.1.7
+Summary: Translating particle codes from CR models from/to PDG codes
+Home-page: https://github.com/afedynitch/particletools
+Author: Anatoli Fedynitch
+Author-email: afedynitch@gmail.com
+License: MIT
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: six
+
+# particletools
+
+
+This single Python module around an XML data file provides some convenient functions for people
+working with properties of physical particles (protons, pions, D-mesons, etc.)
+
+## Status
+
+This version is stable.
+
+## Documentation
+
+The latest version of the documentation can be found [here](http://particletools.readthedocs.org/en/latest/index.html).
+
+## Requirements
+
+The package is universal and should work with all Python versions above 2.7.
+
+## Installation
+
+    pip install particletools
+
+## Quickstart
+
+The purpose of this tools is to provide library-like features to convert
+particle names into PDG IDs, the particle codes of some common event generators, or to obtain their masses and decay channels. The below example demonstrates
+how to look up the branching ratios of some particle.
+
+```python
+from particletools.tables import print_decay_channels
+print_decay_channels(221)
+```
+    eta decays into:
+            39.3824%, gamma, gamma
+            32.512%, pi0, pi0, pi0
+            22.7%, pi+, pi-, pi0
+            4.69%, pi+, pi-, gamma
+            0.6%, gamma, e-, e+
+            0.044%, pi0, gamma, gamma
+            0.04%, pi+, pi-, e-, e+
+            0.031%, gamma, mu-, mu+
+            0.0006%, mu-, mu+
+## Contributors
+
+- Hans Dembinski (github:HDembinski)
+- Sonia El Hadri (github:soso128)
+
+## [MIT License](LICENSE)
+
+Code and documentation copyright 2015-2020 Anatoli Fedynitch

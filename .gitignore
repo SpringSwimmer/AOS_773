@@ -1,1 +1,4 @@
 *.grib
+*.npy
+*.idx
+my_environment/*
